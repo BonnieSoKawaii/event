@@ -1,0 +1,189 @@
+_G.AutoStrat = true
+_G.AutoSkip = false
+_G.AutoPickups = true
+ 
+_G.SendWebhook = false 
+_G.Webhook = "YOUR-WEBHOOK-URL-HERE" 
+ 
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+ 
+TDS:Loadout("Cowboy", "Accelerator", "DJ Booth", "Ranger", "Turret")
+TDS:Mode("Frost")
+TDS:GameInfo("Summer Castle", {})
+ 
+TDS:UnlockTimeScale()
+TDS:TimeScale(2)
+ 
+TDS:Place("Cowboy", 12.553, 0.974, 24.012) -- 1
+TDS:Place("Cowboy", 15.681, 0.978, 24.016) -- 2
+TDS:Place("Cowboy", 18.808, 0.982, 24.016) -- 3
+TDS:Place("Cowboy", 17.315, 0.982, 26.689) -- 4
+TDS:Place("Cowboy", 14.140, 0.978, 26.741) -- 5
+TDS:Place("Cowboy", 21.872, 0.986, 24.097) -- 6
+TDS:Place("Cowboy", 20.332, 0.986, 26.822) -- 7
+TDS:Place("Cowboy", 9.454, 0.969, 23.949)  -- 8
+TDS:Place("Cowboy", 6.403, 0.965, 23.965)  -- 9
+TDS:Place("Cowboy", 10.894, 0.973, 26.673) -- 10
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Place("DJ Booth", 9.233, 0.965, 19.034) -- 11
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:SetOption(11, "Track", "Green")
+TDS:Ability(11, "Drop The Beat", true)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Place("Ranger", 11.381, 3.978, 9.012) -- 12
+TDS:Place("Ranger", 13.968, 4.390, 7.068) -- 13
+TDS:Place("Ranger", 8.553, 4.166, 8.006)  -- 14
+TDS:Place("Ranger", 10.961, 4.499, 6.009) -- 15
+TDS:Place("Ranger", 5.544, 4.527, 6.967)  -- 16
+TDS:Place("Ranger", 8.076, 4.565, 4.762)  -- 17
+TDS:Place("Ranger", 3.112, 4.928, 5.197)  -- 18
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Accelerator", 15.031, 0.957, 10.048) -- 19
+TDS:Place("Accelerator", 17.402, 0.975, 7.768)  -- 20
+TDS:Place("Accelerator", 17.978, 0.968, 10.741) -- 21
+TDS:SetTarget(19, "Last")
+TDS:SetTarget(20, "Last")
+TDS:SetTarget(21, "Last")
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Accelerator", 11.770, 0.938, 10.877) -- 22
+TDS:Place("Accelerator", 8.272, 0.923, 10.487)  -- 23
+TDS:Place("Accelerator", 5.412, 0.914, 9.135)   -- 24
+TDS:Place("Accelerator", 9.662, 0.920, 13.244)  -- 25
+TDS:Place("Accelerator", 5.948, 0.910, 12.455)  -- 26
+TDS:SetOption(11, "Track", "Red")
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Place("Turret", 2.548, 0.921, 13.587)  -- 27
+TDS:Place("Turret", 1.908, 0.910, 9.029)   -- 28
+TDS:Place("Turret", -1.249, 0.906, 11.778) -- 29
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(18)

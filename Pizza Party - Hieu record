@@ -9,8 +9,7 @@ local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/au
 
 -- START STRATEGY 
 TDS:Loadout("Trapper", "Minigunner", "DJ Booth", "Commander", "Ranger") -- Change this to the loadout you are using
-TDS:Mode("Hardcore") -- Change this to the gamemode you're playing
-TDS:GameInfo("Wrecked Battlefield", {}) -- Change this to the Map you want
+TDS:Mode("Pizza Party")
 
 -- START STRATEGY
 TDS:Place("Trapper", 7.73, 1.04, -24.45)
